@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: bold 18px sans-serif;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    gap: 10px;
+}
+[name="type"]{
+  width: 240px;
+
+}
+.c{
+  width: 240px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+:hover.c {
+  background-color: lightgreen;
+}
+.results {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  gap: 25px;
+}
+.box {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+:hover.box{ background: green;
+  cursor: pointer;
+
+}
